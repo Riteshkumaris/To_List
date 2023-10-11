@@ -7,10 +7,7 @@ function TodoInput(props) {
         props.addList(inputText)
         setInputText("")
       }
-      if(e == "")
-      {
-        alert("kjhg")
-      }
+      
     }
   return (
    <div className="input-container">
